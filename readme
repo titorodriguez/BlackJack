@@ -1,0 +1,33 @@
+############### Blackjack Project #####################
+
+•	Ask to user if he want to play: “Do you want to play a game of Blackjack? Type ‘y’ or ‘n’: “
+•	Print logo
+•	Create list with deck of cards: 2 to 10, three 10’s for jack, queen & king and one 11 for as
+•	Assign cards for the computer and me (2) and show just 1 for computer (to add cards): “Your cards: [6, 8], current score: 14”, “Computer’s first card: 10”
+•	Ask me if I want to choose another card: “Type ‘y’ to get another car, type ‘n’ to pass:
+•	For me: show the next card and add; for computer: continue show 1st
+•	If I don’t want to choose another card, show the result
+•	“Your final hand: [6, 8, 6], final score: 20”
+•	“Computer's final hand: [10, 2, 8], final score: 20”
+•	Results
+"Win with a Blackjack"
+"You win"
+"Opponent went over. You win"
+"You lose"
+"Lose, opponent has Blackjack"
+"You went over. You lose"
+
+"Draw"
+
+
+############### Our Blackjack House Rules #####################
+
+## The deck is unlimited in size.
+## There are no jokers.
+## The Jack/Queen/King all count as 10.
+## The the Ace can count as 11 or 1.
+## Use the following list as the deck of cards:
+## cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
+## The cards in the list have equal probability of being drawn.
+## Cards are not removed from the deck as they are drawn.
+## The computer is the dealer.
